@@ -7,7 +7,7 @@ https://classroom.github.com/online_ide?assignment_repo_id=13208153&assignment_r
 
 .is_it_friday_yet.feature
 [source,gherkin]
----
+----
 # Created by enzob at 11/12/2023
 # language: en
 Feature: Is it Friday yet?
@@ -21,7 +21,7 @@ Feature: Is it Friday yet?
       | Friday         | TGIF   |
       | Sunday         | Nope   |
       | anything else! | Nope   |
----
+----
 
 .Exécution des tests du TP1
 image::images/tp1_tests_results.png[]
