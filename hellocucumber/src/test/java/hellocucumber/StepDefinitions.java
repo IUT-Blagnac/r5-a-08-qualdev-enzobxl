@@ -20,7 +20,6 @@ public class StepDefinitions {
     public void theScenarioPasses() {
     }
 
-
     static String isItFriday(String today) {
         return "Friday".equals(today) ? "TGIF" : "Nope";
     }
