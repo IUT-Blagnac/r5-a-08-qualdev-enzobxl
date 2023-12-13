@@ -103,7 +103,7 @@ Feature: Account testing
       | 670            | 400             | 270     |
 ----
 
-.account_steps
+.account_steps.py
 [source, python]
 ----
 from behave import *
