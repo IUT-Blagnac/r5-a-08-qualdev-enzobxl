@@ -22,11 +22,3 @@ class Account:
                 print("Insufficient funds!")
         else:
             print("Amount cannot be negative or null")
-
-    def transfer(self, target_account, amount):
-        if amount <= self.balance:
-            self.balance -= amount
-            target_account.deposit(amount)
-            print(f"Transferred ${amount} to {target_account.name}. New balance: ${self.balance}")
-        else:
-            print("Insufficient funds!")
